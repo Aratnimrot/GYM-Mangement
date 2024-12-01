@@ -1,0 +1,87 @@
+/* src/components/Store/Supplements.css */
+
+/* General container styles */
+
+.supplements-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Title styles */
+
+.supplements-title {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input fields for the supplement form */
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+/* Button to add supplement */
+
+.add-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+/* Supplement list styling */
+
+.supplement-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.supplement-list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.supplement-list-item:hover {
+  background-color: #f1f1f1;
+}
+
+.supplement-details {
+  font-size: 16px;
+  color: #333;
+}
+
+.supplement-price {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.supplement-stock {
+  font-style: italic;
+  color: #f44336;
+}

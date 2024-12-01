@@ -1,0 +1,121 @@
+/* src/components/Bills/Bills.css */
+
+/* General container styling for the bills page */
+
+.bills-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Create Bill Section */
+
+.create-bill-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.create-bill-section h3 {
+  color: #333;
+}
+
+.create-bill-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.create-bill-button:hover {
+  background-color: #45a049;
+}
+
+/* Bill Receipts Section */
+
+.bill-receipts-section {
+  margin-top: 20px;
+}
+
+.bill-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bill-list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.bill-list-item:hover {
+  background-color: #f1f1f1;
+}
+
+.bill-details {
+  font-size: 16px;
+}
+
+.bill-amount {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.bill-due-date {
+  font-style: italic;
+  color: #f44336;
+}
+
+/* Bill Notifications Section */
+
+.bill-notifications-section {
+  margin-top: 20px;
+}
+
+.notification-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.notification-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff3cd;
+}
+
+.notification-item:hover {
+  background-color: #fff2a1;
+}
+
+.notification-message {
+  font-size: 16px;
+}
+
+.notification-text {
+  font-weight: bold;
+  color: #f44336;
+}
+
+/* Additional styles for overdue and due soon notifications */
+
+.notification-item.overdue {
+  background-color: #f8d7da;
+}
+
+.notification-item.due-soon {
+  background-color: #fff3cd;
+}
